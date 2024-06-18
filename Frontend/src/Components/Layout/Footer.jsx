@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Context } from "../../main";
 import { Link } from "react-router-dom";
-import { CiTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   const { isAuthorized } = useContext(Context);
@@ -10,7 +10,7 @@ const Footer = () => {
       <div>&copy; All Rights Reserved By Divyansh Singh</div>
       <div>
         <Link to={"https://x.com/Divyansh1525"} target="_blank">
-          <CiTwitter />
+          <FaTwitter />
         </Link>
         <Link
           to={"https://www.linkedin.com/in/divyanshsingh1525/"}
